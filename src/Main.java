@@ -40,7 +40,7 @@ public class Main {
                 outPut.println(message);
                 response = input.nextLine();
                 System.out.println("\n SERVER> " + response);
-            } while (!message.equals("***CLOSE***"));
+            } while (!message.equals("**CLOSE**"));
         }
         catch (IOException ioEx) {
             ioEx.printStackTrace();
